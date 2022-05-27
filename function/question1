@@ -1,0 +1,6 @@
+def sum(numbers):
+2	    total = 0
+3	    for x in numbers:
+4	        total += x
+5	    return total
+6	print(sum((8, 2, 3, 0, 7)))
