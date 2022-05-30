@@ -1,0 +1,7 @@
+def read_file():
+    file = open("poem.txt","r")
+    for line in file:
+        print(line, end="")
+    file.close()
+
+read_file()
